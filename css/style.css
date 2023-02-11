@@ -230,7 +230,7 @@ header nav .nav__right{
 
 .cards .card-trend{
   /* width: 275px; */
-  box-shadow: 0 2.5rem  20rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1rem  2.5rem rgba(0, 0, 0, 0.4);
   border-radius: 1rem;
   padding: 1.5rem 2rem;
   transition: all .2s;
@@ -407,6 +407,10 @@ footer button {
   font-weight: 500;
   letter-spacing: 0.3rem;
 }
+.copyright{
+  text-align: center;
+}
+
 .btn, .btn:link, .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
@@ -519,7 +523,7 @@ footer button {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
       .card__picture--1 {
-        background-image: linear-gradient(to right bottom, #A0CFFD, #36427C), url(../img/beginnner.jpg); }
+        background-image: linear-gradient(to right bottom, #A0CFFD, #36427C), url(../img/beginner.jpg); }
       .card__picture--2 {
         background-image: linear-gradient(to right bottom, #46CCC0, #0594A2), url(../img/intermediate.jpg); }
       .card__picture--3 {
@@ -535,15 +539,16 @@ footer button {
       right: 2rem;
       width: 75%; }
     .card__heading-span {
-      padding: 1rem 1.5rem;
+      padding: 0.5rem 1.5rem;
+      line-height: 1;
       -webkit-box-decoration-break: clone;
       box-decoration-break: clone; }
       .card__heading-span--1 {
-        background-image: linear-gradient(to right bottom, #A0CFFD, #36427C); }
+        background-image: linear-gradient(to right bottom, #A0CFFDe5, #36427Ce5); }
       .card__heading-span--2 {
-        background-image: linear-gradient(to right bottom, #46CCC0, #0594A2); }
+        background-image: linear-gradient(to right bottom, #46CCC0e5, #0594A2e5); }
       .card__heading-span--3 {
-        background-image: linear-gradient(to right bottom, #EDB842, #E8634E); }
+        background-image: linear-gradient(to right bottom, #EDB842e5, #E8634Ee5); }
     .card__details {
       padding: 3rem;
       color: #666666; }
